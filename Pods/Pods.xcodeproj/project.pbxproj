@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091B1FE191546B67C26C30164297EABA /* BSInitializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A5AC260AEF607532E18E3FA09EC988 /* BSInitializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1574D84A393760BD7B27B3386C68EFE6 /* BSClassProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C97AC1C2BD69B1BEFEC766E91DCFAC5 /* BSClassProvider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2179C4D372834A304CDE08FF6654A0CF /* Blindside.m in Sources */ = {isa = PBXBuildFile; fileRef = 455F42B4E2A0F2D0B1C78FF66B0043A3 /* Blindside.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		27C1835CEC13CBA7D4CED2F8FE7BAB13 /* Pods-BlindSideDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BACB79B72188D7370A627DA0692555 /* Pods-BlindSideDemoTests-dummy.m */; };
+		2917ED0FDC2E43C024E56C3E530D1BB6 /* BSNullabilityCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = E3705C4B40B28DEC5FF71053D2A0B624 /* BSNullabilityCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		309A12986B3C9642BC7720676B33D92F /* BSInstanceProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 9563885C4608A50C0EA49437C1194A54 /* BSInstanceProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		37AB64768BB21033B30FB3AC7B3C6515 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3AC27541EB37949CB1D66C4BFC619452 /* BSProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 75ECB789D683571CD4AC43A1F5982C25 /* BSProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41E58CB4E9AFA67EA5819EDB7B0E7EEB /* BSModule.h in Headers */ = {isa = PBXBuildFile; fileRef = D69C17229E2731114133F6E7604B0F1A /* BSModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4827ACC5F720206EA7648CB9F68755AD /* Blindside.h in Headers */ = {isa = PBXBuildFile; fileRef = 32E5B58B190AED57C7135A7226AB7562 /* Blindside.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		495C869E8DF3385767FD13385AE9A92F /* NSObject+Blindside.h in Headers */ = {isa = PBXBuildFile; fileRef = AF4DACBA3AA8967AA43BD21E06A19335 /* NSObject+Blindside.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5690043A472BA0451CA06E66B57E8C2F /* BSNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 87036C516775E9037B21E0874B7C0A3D /* BSNull.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		658AA5F10DB80CBB5B2086EBA2D86F80 /* BSInstanceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC0607B3DA9B86C52979FDCDAA56D4 /* BSInstanceProvider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		669BD6B100B89B8D22302FE417075477 /* BSBinder.h in Headers */ = {isa = PBXBuildFile; fileRef = A29F756710B4B6C56C16F63522AD6427 /* BSBinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		671438995A8E9B2C424225BD7C8B6435 /* BSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 658569938C0131CD651CA6651B714F84 /* BSUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6873B3F4363D786A94703118611B5955 /* BSBlockProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EB10F61B062A9E1CC56B21BD46A640D0 /* BSBlockProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88143E7FC08EF2A0C33D827928218F1D /* BSClassProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 049D85E213ED9E276142BA1ACA8DB0B2 /* BSClassProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D98543373E4AF71F8B916F49D88A9B4 /* Pods-BlindSideDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD934D1576E5ED4BA87CC989FF76D5F9 /* Pods-BlindSideDemo-dummy.m */; };
+		9577C8E89225D8215BD6DE107063F8C0 /* BSInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CFD9BA325B916E6A5594546B3FF52B /* BSInitializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9950C9983F454EE63DAE29C8E1FAA379 /* BSPropertySet.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EA40AA98D4DD85005EF9619B41ADA86 /* BSPropertySet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99A348BC472B213DCA80A99038C60D80 /* BSInitializerProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = CE398A3836784156CE4AA82BA9B6CF6C /* BSInitializerProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A401E2BB566C8B0A685178264EBEAA73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A8FCA02217E13FD7A6869520F9BF7845 /* NSObject+Blindside.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CD473353F30278FF0E2C5A507DD7BA /* NSObject+Blindside.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B6920D5F54FCB0D699E2CE47AA7CCBD1 /* BSNull.h in Headers */ = {isa = PBXBuildFile; fileRef = 594A564FDD19402BC2A37A6103AD377D /* BSNull.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7A18221E4FA5091C07E6129C19D8803 /* Blindside-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7802F9C50E09D26F594C0912AC108B /* Blindside-dummy.m */; };
+		D25FAE6C541CCE3BCFC603C69C78F3BB /* BSPropertySet.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC549D41AC5CE3ECF54FD361BF11DF1 /* BSPropertySet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D5719C719C681D76D79517C9F36789BB /* BSInjectorImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF84AED83CBA07D3B06F851F53380A0 /* BSInjectorImpl.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D7955F24BF051F08DDF0946D3A087E6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DBC4D6F03245C33E659BCCBF5DE03A56 /* BSInitializerProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D799797F1912AA8F13DD739C9581CBB7 /* BSInitializerProvider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DD08087F8DBE8F48EE14D6BBC73A237E /* BSProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE1BB303E9F4CFCBD51E7F35B0F2DD7 /* BSProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE7DCD23D1FA3D24E68C74C6D98064A3 /* BSSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 853F99CB03F2FF7208E756254B1E5A45 /* BSSingleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3B938EF0E58F83C9E5DF6A9ED60BC42 /* BSBlockProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FF22A38BBBEECC123007F323DA5AA538 /* BSBlockProvider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E57D0EF813F32C0500A27D9DB57A2AE7 /* BSProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E3C5291788EEF84DF3532E2A4D3BF4 /* BSProperty.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E80F88BE4E83B750070986D3D07CDCAE /* BSInjectorImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = B2CE72ED146172C1D8333115B769019A /* BSInjectorImpl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EDD5C6B6FD512E9ACEB4A681EC9D57F6 /* BSScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BD43CD374D00F151BB95626BBF4E6FA /* BSScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F28C123AA47CDCCFD3F0FFB19D89241D /* NSObject+BlindsidePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9390FF5E424E8E4601401F75DCE3C527 /* NSObject+BlindsidePrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F47801965BFBFF4E3B7EFC6F36EAF756 /* BSSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = B68C3096576FB1B7416EB549BDCFA124 /* BSSingleton.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F5AB9A532104E32A941D49A3C79121AD /* NSObject+BlindsidePrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EE447EDBACA0C928585B836A66DF /* NSObject+BlindsidePrivate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F5B4C44E4F7E6540308D94C85C0A9C88 /* BSInjector.h in Headers */ = {isa = PBXBuildFile; fileRef = 524876A3AF932E96023167C79CD8F516 /* BSInjector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F494CCF631C427B6340A4FCBFF822247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68F73B3378B9152C52F2D2A1B220A5CE;
+			remoteInfo = Blindside;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049D85E213ED9E276142BA1ACA8DB0B2 /* BSClassProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSClassProvider.h; path = Headers/Private/BSClassProvider.h; sourceTree = "<group>"; };
+		0A9CDB4F6F551206CE2A14923A5B7B43 /* Pods-BlindSideDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlindSideDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C97AC1C2BD69B1BEFEC766E91DCFAC5 /* BSClassProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSClassProvider.m; path = Source/BSClassProvider.m; sourceTree = "<group>"; };
+		2F7802F9C50E09D26F594C0912AC108B /* Blindside-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Blindside-dummy.m"; sourceTree = "<group>"; };
+		32A5AC260AEF607532E18E3FA09EC988 /* BSInitializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSInitializer.h; path = Headers/Public/BSInitializer.h; sourceTree = "<group>"; };
+		32E5B58B190AED57C7135A7226AB7562 /* Blindside.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Blindside.h; path = Headers/Public/Blindside.h; sourceTree = "<group>"; };
+		4046003474747773901CD42DD0180063 /* Pods-BlindSideDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlindSideDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		455F42B4E2A0F2D0B1C78FF66B0043A3 /* Blindside.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Blindside.m; path = Source/Blindside.m; sourceTree = "<group>"; };
+		524876A3AF932E96023167C79CD8F516 /* BSInjector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSInjector.h; path = Headers/Public/BSInjector.h; sourceTree = "<group>"; };
+		52BC0607B3DA9B86C52979FDCDAA56D4 /* BSInstanceProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSInstanceProvider.m; path = Source/BSInstanceProvider.m; sourceTree = "<group>"; };
+		55E6EE447EDBACA0C928585B836A66DF /* NSObject+BlindsidePrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+BlindsidePrivate.m"; path = "Source/NSObject+BlindsidePrivate.m"; sourceTree = "<group>"; };
+		594A564FDD19402BC2A37A6103AD377D /* BSNull.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSNull.h; path = Headers/Public/BSNull.h; sourceTree = "<group>"; };
+		5B1A4FAB35C8E980476B51796FC27440 /* Blindside-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Blindside-prefix.pch"; sourceTree = "<group>"; };
+		5C34A41D2A09A83D39A46BABD2FCAF0E /* Pods-BlindSideDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlindSideDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		658569938C0131CD651CA6651B714F84 /* BSUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSUtils.h; path = Headers/Private/BSUtils.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6BD43CD374D00F151BB95626BBF4E6FA /* BSScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSScope.h; path = Headers/Public/BSScope.h; sourceTree = "<group>"; };
+		6DCB2BB863EBF3EFB73D192372C89E0B /* Blindside.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Blindside.xcconfig; sourceTree = "<group>"; };
+		6EE1BB303E9F4CFCBD51E7F35B0F2DD7 /* BSProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSProperty.h; path = Headers/Private/BSProperty.h; sourceTree = "<group>"; };
+		75E3C5291788EEF84DF3532E2A4D3BF4 /* BSProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSProperty.m; path = Source/BSProperty.m; sourceTree = "<group>"; };
+		75ECB789D683571CD4AC43A1F5982C25 /* BSProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSProvider.h; path = Headers/Public/BSProvider.h; sourceTree = "<group>"; };
+		80BF1FEF0D793BF9DCA6BCF980294A74 /* Pods-BlindSideDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlindSideDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		853F99CB03F2FF7208E756254B1E5A45 /* BSSingleton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSSingleton.h; path = Headers/Public/BSSingleton.h; sourceTree = "<group>"; };
+		87036C516775E9037B21E0874B7C0A3D /* BSNull.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSNull.m; path = Source/BSNull.m; sourceTree = "<group>"; };
+		89CD473353F30278FF0E2C5A507DD7BA /* NSObject+Blindside.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Blindside.m"; path = "Source/NSObject+Blindside.m"; sourceTree = "<group>"; };
+		8D0BC17ACFA3449312FF6FCC07206381 /* libPods-BlindSideDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BlindSideDemoTests.a"; path = "libPods-BlindSideDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA40AA98D4DD85005EF9619B41ADA86 /* BSPropertySet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSPropertySet.h; path = Headers/Public/BSPropertySet.h; sourceTree = "<group>"; };
+		9390FF5E424E8E4601401F75DCE3C527 /* NSObject+BlindsidePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BlindsidePrivate.h"; path = "Headers/Private/NSObject+BlindsidePrivate.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9563885C4608A50C0EA49437C1194A54 /* BSInstanceProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSInstanceProvider.h; path = Headers/Private/BSInstanceProvider.h; sourceTree = "<group>"; };
+		A29F756710B4B6C56C16F63522AD6427 /* BSBinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSBinder.h; path = Headers/Public/BSBinder.h; sourceTree = "<group>"; };
+		A67212BFE5570061500EE065A2B1C80B /* libBlindside.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBlindside.a; path = libBlindside.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A860C51B2EB1990160456FAFB8C612D5 /* Pods-BlindSideDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlindSideDemoTests-resources.sh"; sourceTree = "<group>"; };
+		ACC2429E8CC0FDC97325E9343B0A282B /* libPods-BlindSideDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BlindSideDemo.a"; path = "libPods-BlindSideDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4DACBA3AA8967AA43BD21E06A19335 /* NSObject+Blindside.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Blindside.h"; path = "Headers/Public/NSObject+Blindside.h"; sourceTree = "<group>"; };
+		B2CE72ED146172C1D8333115B769019A /* BSInjectorImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSInjectorImpl.h; path = Headers/Private/BSInjectorImpl.h; sourceTree = "<group>"; };
+		B68C3096576FB1B7416EB549BDCFA124 /* BSSingleton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSSingleton.m; path = Source/BSSingleton.m; sourceTree = "<group>"; };
+		BD934D1576E5ED4BA87CC989FF76D5F9 /* Pods-BlindSideDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlindSideDemo-dummy.m"; sourceTree = "<group>"; };
+		BEF84AED83CBA07D3B06F851F53380A0 /* BSInjectorImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSInjectorImpl.m; path = Source/BSInjectorImpl.m; sourceTree = "<group>"; };
+		C4B20C5A8B14D91C9182A84B74658631 /* Pods-BlindSideDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlindSideDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C8C39ACFA24D09F8BAD0127D3FE15B7E /* Pods-BlindSideDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlindSideDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB1521B861D77D773217618E86E5CAAD /* Pods-BlindSideDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlindSideDemo-frameworks.sh"; sourceTree = "<group>"; };
+		CBC549D41AC5CE3ECF54FD361BF11DF1 /* BSPropertySet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSPropertySet.m; path = Source/BSPropertySet.m; sourceTree = "<group>"; };
+		CE398A3836784156CE4AA82BA9B6CF6C /* BSInitializerProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSInitializerProvider.h; path = Headers/Private/BSInitializerProvider.h; sourceTree = "<group>"; };
+		D46CAAB2B7A7E7A6B6ADB8556ECCE8AB /* Pods-BlindSideDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlindSideDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D69C17229E2731114133F6E7604B0F1A /* BSModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSModule.h; path = Headers/Public/BSModule.h; sourceTree = "<group>"; };
+		D799797F1912AA8F13DD739C9581CBB7 /* BSInitializerProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSInitializerProvider.m; path = Source/BSInitializerProvider.m; sourceTree = "<group>"; };
+		E04DE4F28132B7BE4654481D3FB4837A /* Pods-BlindSideDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlindSideDemo-resources.sh"; sourceTree = "<group>"; };
+		E0BACB79B72188D7370A627DA0692555 /* Pods-BlindSideDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlindSideDemoTests-dummy.m"; sourceTree = "<group>"; };
+		E3705C4B40B28DEC5FF71053D2A0B624 /* BSNullabilityCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSNullabilityCompat.h; path = Headers/Public/BSNullabilityCompat.h; sourceTree = "<group>"; };
+		E54BDA19B75E4AD40F051504B3613C83 /* Pods-BlindSideDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlindSideDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EB10F61B062A9E1CC56B21BD46A640D0 /* BSBlockProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSBlockProvider.h; path = Headers/Public/BSBlockProvider.h; sourceTree = "<group>"; };
+		F8CFD9BA325B916E6A5594546B3FF52B /* BSInitializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSInitializer.m; path = Source/BSInitializer.m; sourceTree = "<group>"; };
+		FD92F7AFE93BC9F756F592BD74865137 /* Pods-BlindSideDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlindSideDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF22A38BBBEECC123007F323DA5AA538 /* BSBlockProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSBlockProvider.m; path = Source/BSBlockProvider.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D70DF0B1CCF618F1AB2EB311B3A218A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7955F24BF051F08DDF0946D3A087E6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E102F9E7A14D098B31317E196189618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A401E2BB566C8B0A685178264EBEAA73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C8516013D84063B9969B3F28725F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37AB64768BB21033B30FB3AC7B3C6515 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0101F2B49F3AF67D9A7CC6126268C313 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA535E41F121A885A11C4A7F074178BF /* Pods-BlindSideDemo */,
+				4B8126F4D5C039AA79FC8F5E4769CC36 /* Pods-BlindSideDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4B8126F4D5C039AA79FC8F5E4769CC36 /* Pods-BlindSideDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D46CAAB2B7A7E7A6B6ADB8556ECCE8AB /* Pods-BlindSideDemoTests-acknowledgements.markdown */,
+				5C34A41D2A09A83D39A46BABD2FCAF0E /* Pods-BlindSideDemoTests-acknowledgements.plist */,
+				E0BACB79B72188D7370A627DA0692555 /* Pods-BlindSideDemoTests-dummy.m */,
+				80BF1FEF0D793BF9DCA6BCF980294A74 /* Pods-BlindSideDemoTests-frameworks.sh */,
+				A860C51B2EB1990160456FAFB8C612D5 /* Pods-BlindSideDemoTests-resources.sh */,
+				0A9CDB4F6F551206CE2A14923A5B7B43 /* Pods-BlindSideDemoTests.debug.xcconfig */,
+				FD92F7AFE93BC9F756F592BD74865137 /* Pods-BlindSideDemoTests.release.xcconfig */,
+			);
+			name = "Pods-BlindSideDemoTests";
+			path = "Target Support Files/Pods-BlindSideDemoTests";
+			sourceTree = "<group>";
+		};
+		4CB27B127453B7EEEB19CAA323C68684 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E7A8F33E8087BDD970A79A55D09D79C /* Blindside */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E7A8F33E8087BDD970A79A55D09D79C /* Blindside */ = {
+			isa = PBXGroup;
+			children = (
+				32E5B58B190AED57C7135A7226AB7562 /* Blindside.h */,
+				455F42B4E2A0F2D0B1C78FF66B0043A3 /* Blindside.m */,
+				A29F756710B4B6C56C16F63522AD6427 /* BSBinder.h */,
+				EB10F61B062A9E1CC56B21BD46A640D0 /* BSBlockProvider.h */,
+				FF22A38BBBEECC123007F323DA5AA538 /* BSBlockProvider.m */,
+				049D85E213ED9E276142BA1ACA8DB0B2 /* BSClassProvider.h */,
+				1C97AC1C2BD69B1BEFEC766E91DCFAC5 /* BSClassProvider.m */,
+				32A5AC260AEF607532E18E3FA09EC988 /* BSInitializer.h */,
+				F8CFD9BA325B916E6A5594546B3FF52B /* BSInitializer.m */,
+				CE398A3836784156CE4AA82BA9B6CF6C /* BSInitializerProvider.h */,
+				D799797F1912AA8F13DD739C9581CBB7 /* BSInitializerProvider.m */,
+				524876A3AF932E96023167C79CD8F516 /* BSInjector.h */,
+				B2CE72ED146172C1D8333115B769019A /* BSInjectorImpl.h */,
+				BEF84AED83CBA07D3B06F851F53380A0 /* BSInjectorImpl.m */,
+				9563885C4608A50C0EA49437C1194A54 /* BSInstanceProvider.h */,
+				52BC0607B3DA9B86C52979FDCDAA56D4 /* BSInstanceProvider.m */,
+				D69C17229E2731114133F6E7604B0F1A /* BSModule.h */,
+				594A564FDD19402BC2A37A6103AD377D /* BSNull.h */,
+				87036C516775E9037B21E0874B7C0A3D /* BSNull.m */,
+				E3705C4B40B28DEC5FF71053D2A0B624 /* BSNullabilityCompat.h */,
+				6EE1BB303E9F4CFCBD51E7F35B0F2DD7 /* BSProperty.h */,
+				75E3C5291788EEF84DF3532E2A4D3BF4 /* BSProperty.m */,
+				8EA40AA98D4DD85005EF9619B41ADA86 /* BSPropertySet.h */,
+				CBC549D41AC5CE3ECF54FD361BF11DF1 /* BSPropertySet.m */,
+				75ECB789D683571CD4AC43A1F5982C25 /* BSProvider.h */,
+				6BD43CD374D00F151BB95626BBF4E6FA /* BSScope.h */,
+				853F99CB03F2FF7208E756254B1E5A45 /* BSSingleton.h */,
+				B68C3096576FB1B7416EB549BDCFA124 /* BSSingleton.m */,
+				658569938C0131CD651CA6651B714F84 /* BSUtils.h */,
+				AF4DACBA3AA8967AA43BD21E06A19335 /* NSObject+Blindside.h */,
+				89CD473353F30278FF0E2C5A507DD7BA /* NSObject+Blindside.m */,
+				9390FF5E424E8E4601401F75DCE3C527 /* NSObject+BlindsidePrivate.h */,
+				55E6EE447EDBACA0C928585B836A66DF /* NSObject+BlindsidePrivate.m */,
+				EA71EF47C76FD183E9E8D89345A6F37F /* Support Files */,
+			);
+			name = Blindside;
+			path = Blindside;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4CB27B127453B7EEEB19CAA323C68684 /* Pods */,
+				88A7705831A9C0519A602468E1C94620 /* Products */,
+				0101F2B49F3AF67D9A7CC6126268C313 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88A7705831A9C0519A602468E1C94620 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A67212BFE5570061500EE065A2B1C80B /* libBlindside.a */,
+				ACC2429E8CC0FDC97325E9343B0A282B /* libPods-BlindSideDemo.a */,
+				8D0BC17ACFA3449312FF6FCC07206381 /* libPods-BlindSideDemoTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA535E41F121A885A11C4A7F074178BF /* Pods-BlindSideDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C4B20C5A8B14D91C9182A84B74658631 /* Pods-BlindSideDemo-acknowledgements.markdown */,
+				C8C39ACFA24D09F8BAD0127D3FE15B7E /* Pods-BlindSideDemo-acknowledgements.plist */,
+				BD934D1576E5ED4BA87CC989FF76D5F9 /* Pods-BlindSideDemo-dummy.m */,
+				CB1521B861D77D773217618E86E5CAAD /* Pods-BlindSideDemo-frameworks.sh */,
+				E04DE4F28132B7BE4654481D3FB4837A /* Pods-BlindSideDemo-resources.sh */,
+				4046003474747773901CD42DD0180063 /* Pods-BlindSideDemo.debug.xcconfig */,
+				E54BDA19B75E4AD40F051504B3613C83 /* Pods-BlindSideDemo.release.xcconfig */,
+			);
+			name = "Pods-BlindSideDemo";
+			path = "Target Support Files/Pods-BlindSideDemo";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EA71EF47C76FD183E9E8D89345A6F37F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DCB2BB863EBF3EFB73D192372C89E0B /* Blindside.xcconfig */,
+				2F7802F9C50E09D26F594C0912AC108B /* Blindside-dummy.m */,
+				5B1A4FAB35C8E980476B51796FC27440 /* Blindside-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Blindside";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		674BCA2CA6D3BB0BE56725E918EA8329 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4827ACC5F720206EA7648CB9F68755AD /* Blindside.h in Headers */,
+				669BD6B100B89B8D22302FE417075477 /* BSBinder.h in Headers */,
+				6873B3F4363D786A94703118611B5955 /* BSBlockProvider.h in Headers */,
+				88143E7FC08EF2A0C33D827928218F1D /* BSClassProvider.h in Headers */,
+				091B1FE191546B67C26C30164297EABA /* BSInitializer.h in Headers */,
+				99A348BC472B213DCA80A99038C60D80 /* BSInitializerProvider.h in Headers */,
+				F5B4C44E4F7E6540308D94C85C0A9C88 /* BSInjector.h in Headers */,
+				E80F88BE4E83B750070986D3D07CDCAE /* BSInjectorImpl.h in Headers */,
+				309A12986B3C9642BC7720676B33D92F /* BSInstanceProvider.h in Headers */,
+				41E58CB4E9AFA67EA5819EDB7B0E7EEB /* BSModule.h in Headers */,
+				B6920D5F54FCB0D699E2CE47AA7CCBD1 /* BSNull.h in Headers */,
+				2917ED0FDC2E43C024E56C3E530D1BB6 /* BSNullabilityCompat.h in Headers */,
+				DD08087F8DBE8F48EE14D6BBC73A237E /* BSProperty.h in Headers */,
+				9950C9983F454EE63DAE29C8E1FAA379 /* BSPropertySet.h in Headers */,
+				3AC27541EB37949CB1D66C4BFC619452 /* BSProvider.h in Headers */,
+				EDD5C6B6FD512E9ACEB4A681EC9D57F6 /* BSScope.h in Headers */,
+				DE7DCD23D1FA3D24E68C74C6D98064A3 /* BSSingleton.h in Headers */,
+				671438995A8E9B2C424225BD7C8B6435 /* BSUtils.h in Headers */,
+				495C869E8DF3385767FD13385AE9A92F /* NSObject+Blindside.h in Headers */,
+				F28C123AA47CDCCFD3F0FFB19D89241D /* NSObject+BlindsidePrivate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		68F73B3378B9152C52F2D2A1B220A5CE /* Blindside */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F78F7DF922E56716CBAD6A2F00F007F /* Build configuration list for PBXNativeTarget "Blindside" */;
+			buildPhases = (
+				FB26E1198171323BC0928400F443580F /* Sources */,
+				1E102F9E7A14D098B31317E196189618 /* Frameworks */,
+				674BCA2CA6D3BB0BE56725E918EA8329 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blindside;
+			productName = Blindside;
+			productReference = A67212BFE5570061500EE065A2B1C80B /* libBlindside.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		985D1CE807DC89BE76DC2CB1A0C746F4 /* Pods-BlindSideDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593979C2042E5CF606837687616FFFD6 /* Build configuration list for PBXNativeTarget "Pods-BlindSideDemo" */;
+			buildPhases = (
+				9069D570EC09E5950F9BC815C74651BA /* Sources */,
+				1D70DF0B1CCF618F1AB2EB311B3A218A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1282B487C5EE315DE3D337CBDC5B32D4 /* PBXTargetDependency */,
+			);
+			name = "Pods-BlindSideDemo";
+			productName = "Pods-BlindSideDemo";
+			productReference = ACC2429E8CC0FDC97325E9343B0A282B /* libPods-BlindSideDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E7362C837438367D8B15FA6F2C96913F /* Pods-BlindSideDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A5A5E6DBDF86382C84C7F4FD0BB509 /* Build configuration list for PBXNativeTarget "Pods-BlindSideDemoTests" */;
+			buildPhases = (
+				836CFB2A4BE1B113FBC7C6DFBE9DFEA0 /* Sources */,
+				48C8516013D84063B9969B3F28725F61 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BlindSideDemoTests";
+			productName = "Pods-BlindSideDemoTests";
+			productReference = 8D0BC17ACFA3449312FF6FCC07206381 /* libPods-BlindSideDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 88A7705831A9C0519A602468E1C94620 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68F73B3378B9152C52F2D2A1B220A5CE /* Blindside */,
+				985D1CE807DC89BE76DC2CB1A0C746F4 /* Pods-BlindSideDemo */,
+				E7362C837438367D8B15FA6F2C96913F /* Pods-BlindSideDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		836CFB2A4BE1B113FBC7C6DFBE9DFEA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C1835CEC13CBA7D4CED2F8FE7BAB13 /* Pods-BlindSideDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9069D570EC09E5950F9BC815C74651BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D98543373E4AF71F8B916F49D88A9B4 /* Pods-BlindSideDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB26E1198171323BC0928400F443580F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A18221E4FA5091C07E6129C19D8803 /* Blindside-dummy.m in Sources */,
+				2179C4D372834A304CDE08FF6654A0CF /* Blindside.m in Sources */,
+				E3B938EF0E58F83C9E5DF6A9ED60BC42 /* BSBlockProvider.m in Sources */,
+				1574D84A393760BD7B27B3386C68EFE6 /* BSClassProvider.m in Sources */,
+				9577C8E89225D8215BD6DE107063F8C0 /* BSInitializer.m in Sources */,
+				DBC4D6F03245C33E659BCCBF5DE03A56 /* BSInitializerProvider.m in Sources */,
+				D5719C719C681D76D79517C9F36789BB /* BSInjectorImpl.m in Sources */,
+				658AA5F10DB80CBB5B2086EBA2D86F80 /* BSInstanceProvider.m in Sources */,
+				5690043A472BA0451CA06E66B57E8C2F /* BSNull.m in Sources */,
+				E57D0EF813F32C0500A27D9DB57A2AE7 /* BSProperty.m in Sources */,
+				D25FAE6C541CCE3BCFC603C69C78F3BB /* BSPropertySet.m in Sources */,
+				F47801965BFBFF4E3B7EFC6F36EAF756 /* BSSingleton.m in Sources */,
+				A8FCA02217E13FD7A6869520F9BF7845 /* NSObject+Blindside.m in Sources */,
+				F5AB9A532104E32A941D49A3C79121AD /* NSObject+BlindsidePrivate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1282B487C5EE315DE3D337CBDC5B32D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Blindside;
+			target = 68F73B3378B9152C52F2D2A1B220A5CE /* Blindside */;
+			targetProxy = F494CCF631C427B6340A4FCBFF822247 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DCA7916DF4ACEA5E0315D77606A3E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD92F7AFE93BC9F756F592BD74865137 /* Pods-BlindSideDemoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5A2AAB930E8DEE8CB50B0D650FFEE192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A9CDB4F6F551206CE2A14923A5B7B43 /* Pods-BlindSideDemoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		948A2149FA0937CB15F2516049936DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DCB2BB863EBF3EFB73D192372C89E0B /* Blindside.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Blindside/Blindside-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		B722C982C200AE1F2054783A2740A4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E54BDA19B75E4AD40F051504B3613C83 /* Pods-BlindSideDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CF0C0BBC4F615102ADB4FC4063AB43A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DCB2BB863EBF3EFB73D192372C89E0B /* Blindside.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Blindside/Blindside-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		D8359B58C16DC3A628AD08AD76644DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4046003474747773901CD42DD0180063 /* Pods-BlindSideDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		593979C2042E5CF606837687616FFFD6 /* Build configuration list for PBXNativeTarget "Pods-BlindSideDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8359B58C16DC3A628AD08AD76644DBE /* Debug */,
+				B722C982C200AE1F2054783A2740A4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A5A5E6DBDF86382C84C7F4FD0BB509 /* Build configuration list for PBXNativeTarget "Pods-BlindSideDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2AAB930E8DEE8CB50B0D650FFEE192 /* Debug */,
+				2DCA7916DF4ACEA5E0315D77606A3E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F78F7DF922E56716CBAD6A2F00F007F /* Build configuration list for PBXNativeTarget "Blindside" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0C0BBC4F615102ADB4FC4063AB43A8 /* Debug */,
+				948A2149FA0937CB15F2516049936DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
