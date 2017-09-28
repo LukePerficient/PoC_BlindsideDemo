@@ -1,5 +1,5 @@
 //
-//  RootViewControllerProvider.h
+//  SecondViewControllerProvider.h
 //  BlindSideDemo
 //
 //  Created by DDC.Mac2 on 9/28/17.
@@ -10,7 +10,10 @@
 #import <UIKit/UIKit.h>
 #import "ParentProvider.h"
 
-@interface RootViewControllerProvider : ParentProvider
+@interface SecondViewControllerProvider : ParentProvider
+
+- (instancetype)init UNAVAILABLE_ATTRIBUTE;
++ (instancetype)new UNAVAILABLE_ATTRIBUTE;
 
 - (UIViewController *)provideController;
 

@@ -8,11 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "MyApi.h"
+#import "ParentProvider.h"
+#import "SecondViewControllerProvider.h"
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController 
 
 @property (strong, nonatomic) id<MyApi> api;
 
-- (id)initWithApi:(id<MyApi>)defaultApi;
+- (id)initWithApi:(id<MyApi>)defaultApi WithSecondVCProvider:(SecondViewControllerProvider *)defaultSecondViewControllerProvider;
 
 @end

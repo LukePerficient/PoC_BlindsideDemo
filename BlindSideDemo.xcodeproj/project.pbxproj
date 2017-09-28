@@ -125,9 +125,10 @@
 		441E13B61F7D43F100F7DC0E /* BlindSideDemo */ = {
 			isa = PBXGroup;
 			children = (
-				441E13F51F7D6DD900F7DC0E /* Provider */,
+				44ED16BA1F7DA911004E3852 /* APIs */,
+				441E13F51F7D6DD900F7DC0E /* Providers */,
 				441E13EF1F7D5C7600F7DC0E /* Views */,
-				441E13EC1F7D5BFD00F7DC0E /* Setup */,
+				441E13EC1F7D5BFD00F7DC0E /* DependencySetup */,
 				441E13EB1F7D5A5A00F7DC0E /* Controllers */,
 				441E13B71F7D43F100F7DC0E /* AppDelegate.h */,
 				441E13B81F7D43F100F7DC0E /* AppDelegate.m */,
@@ -135,9 +136,6 @@
 				441E13C21F7D43F100F7DC0E /* LaunchScreen.storyboard */,
 				441E13C51F7D43F100F7DC0E /* Info.plist */,
 				441E13C61F7D43F100F7DC0E /* main.m */,
-				441E13E21F7D4E4F00F7DC0E /* MyApi.h */,
-				441E13E81F7D555D00F7DC0E /* MyApiImplementation.h */,
-				441E13E61F7D522000F7DC0E /* MyApiImplementation.m */,
 			);
 			path = BlindSideDemo;
 			sourceTree = "<group>";
@@ -162,13 +160,13 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		441E13EC1F7D5BFD00F7DC0E /* Setup */ = {
+		441E13EC1F7D5BFD00F7DC0E /* DependencySetup */ = {
 			isa = PBXGroup;
 			children = (
 				441E13E31F7D511100F7DC0E /* MyBlindsideModule.h */,
 				441E13E41F7D511100F7DC0E /* MyBlindsideModule.m */,
 			);
-			path = Setup;
+			path = DependencySetup;
 			sourceTree = "<group>";
 		};
 		441E13EF1F7D5C7600F7DC0E /* Views */ = {
@@ -180,7 +178,7 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		441E13F51F7D6DD900F7DC0E /* Provider */ = {
+		441E13F51F7D6DD900F7DC0E /* Providers */ = {
 			isa = PBXGroup;
 			children = (
 				441E13FC1F7D7BB500F7DC0E /* ParentProvider.h */,
@@ -190,7 +188,17 @@
 				441E13F91F7D74FE00F7DC0E /* SecondViewControllerProvider.h */,
 				441E13FA1F7D74FE00F7DC0E /* SecondViewControllerProvider.m */,
 			);
-			path = Provider;
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		44ED16BA1F7DA911004E3852 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				441E13E21F7D4E4F00F7DC0E /* MyApi.h */,
+				441E13E81F7D555D00F7DC0E /* MyApiImplementation.h */,
+				441E13E61F7D522000F7DC0E /* MyApiImplementation.m */,
+			);
+			path = APIs;
 			sourceTree = "<group>";
 		};
 		B703328E503B2BF466ACB8C6 /* Frameworks */ = {

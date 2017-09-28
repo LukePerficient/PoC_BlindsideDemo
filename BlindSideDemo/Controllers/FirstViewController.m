@@ -7,12 +7,11 @@
 //
 
 #import "FirstViewController.h"
-#import "SecondViewControllerProvider.h"
 #import "Blindside.h"
 
 @interface FirstViewController ()
 
-@property (strong, nonatomic) SecondViewControllerProvider *provider;
+@property (strong, nonatomic) SecondViewControllerProvider *secondViewControllerProvider;
 
 @end
 
@@ -29,11 +28,13 @@
 }
 
 - (id)initWithApi:(id<MyApi>)defaultApi
+   WithSecondVCProvider:(SecondViewControllerProvider *)defaultSecondViewControllerProvider
 {
     self = [super init];
     
     if (self) {
         _api = defaultApi;
+        _secondViewControllerProvider = defaultSecondViewControllerProvider;
     }
     
     return self;
@@ -41,15 +42,22 @@
 
 + (BSInitializer *)bsInitializer {
     return [BSInitializer initializerWithClass:self
-                                      selector:@selector(initWithApi:)
-                                  argumentKeys:@"myApi", nil];
+                                      selector:@selector(initWithApi:WithSecondVCProvider:)
+                                  argumentKeysArray:@[@"myApi",
+                                                      [SecondViewControllerProvider class]]];
 }
 
 // Actions:
 - (IBAction)goToSecondViewController:(UIButton *)sender {
-    _provider = [[SecondViewControllerProvider alloc] init];
+    // Call implementation from injected protocol
+    [_api firstProcess];
+    [_api secondProcess];
+    [_api thirdProcess];
     
-    UIViewController *secondViewController = [_provider provideController];
+    // Return next viewcontroller from provider and present it to user
+    //_secondViewControllerProvider = [[SecondViewControllerProvider alloc] init];
+    
+    UIViewController *secondViewController = [_secondViewControllerProvider provideController];
     
     [self presentViewController:secondViewController animated:YES completion:nil];
 }

@@ -23,7 +23,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    [self setupDependencies];
+    [self setup];
     
     UIViewController *rootViewController = [_rootViewControllerProvider provideController];
     
@@ -34,7 +34,7 @@
     return YES;
 }
 
-- (void)setupDependencies
+- (void)setup
 {
     ParentProvider *parentProvider = [[ParentProvider alloc] init];
     _injector = parentProvider.injector;
